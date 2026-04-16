@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@apollo/server": "^5.5.0",
+    "@as-integrations/aws-lambda": "^4.0.1",
     "@serverless/aws-lambda-sdk": "^0.15.15",
-    "@serverless/sdk": "^0.5.26"
+    "@serverless/sdk": "^0.5.26",
+    "graphql": "^16.13.2"
   }
 }

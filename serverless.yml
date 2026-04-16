@@ -12,3 +12,10 @@ functions:
       - httpApi:
           path: /
           method: get
+
+  graphql:
+    handler: graphql.graphqlHandler
+    events:
+      - httpApi:
+          path: /graphql
+          method: ANY
